@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles for the scroll button */
+
+.arrowUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(199, 187, 171, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+}
+
+.arrowUp i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20%;
+    transform: rotate(-135deg);
+
+}
+
+.arrowUp:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.arrowUp:active {
+    background-color: #555;
+}
+
+.arrowUp {
+    opacity: 1;
+    transition: .5s;
+}
+
+.arrowUp_hide {
+    opacity: 0;
+}
+
+/* Styles for the content section */
+
+.content {
+    width: 55%;
+    margin: 50px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #484b52;
+    line-height: 1.9;
+}
+
+.content h1 {
+    color: #03a9f4;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.content h2 {
+    font-size: 1.4em;
+}
+
+.content h3 {
+    font-style: italic;
+    font-size: 1.1em;
+    color: #505659;
+}
+
+hr {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+
+figure {
+    text-align: center;
+
+}
+figure img {
+    height: 80%;
+    max-width: 80%;
+}
+
+a {
+    color: #0da1fd;
+    text-decoration: none;
+}
+
+.table-contents a {
+    color: #0d3dfd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a79bb;
+    text-decoration: underline;
+}
